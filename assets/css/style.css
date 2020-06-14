@@ -1582,3 +1582,14 @@ section {
   color: #3498db;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  background: rgb(255, 255, 255);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(59, 55, 55);
+    border-radius: 10px;
+    border-right: 2px;
+}
+
